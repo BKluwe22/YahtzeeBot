@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 ### Interactive Application
-The easiest way to use this app through Docker Compose
+The easiest way to install and run this app through Docker Compose
 ```
 cd YahtzeePracticeApp
 docker compose build 
@@ -38,4 +38,7 @@ in the YahtzeePracticeApp folder
 
 If you have followed the alternative route, you can run ```python app.py```
 in the ``ui/``` folder
+
+The ui is listening on port 9000 (http://127.0.0.1:9000) 
+The simulation server is listening on port 5000 (http://127.0.0.1:5000)
 
