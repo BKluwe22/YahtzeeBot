@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  ui:
+    depends_on:
+      - simulation_server
+    build: ui
+    networks:
+      - yahtzee-network
+    ports:
+      - "9000:9000"
+  simulation_server:
+    build: simulation_server
+    networks:
+      - yahtzee-network
+    ports:
+      - "5000:5000"
+networks:
+  yahtzee-network:
+    driver: bridge

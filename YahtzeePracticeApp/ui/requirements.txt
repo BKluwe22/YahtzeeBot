@@ -1,0 +1,8 @@
+dash==2.7.0
+dash_bootstrap_components==1.2.1
+requests==2.28.1
+dash_tabulator==0.4.2
+pandas==1.4.1
+numpy==1.21.5
+plotly==5.9.0
+
