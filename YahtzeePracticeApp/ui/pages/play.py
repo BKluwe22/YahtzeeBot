@@ -224,7 +224,7 @@ layout = dbc.Container([
                     In order to hold these dice out again, you must select them again so that they are green. 
 
                     Disclaimer: I sometimes make analytical dashboards with Plotly Dash. However, I know next to nothing
-                    about frontend design or best practices. 
+                    about frontend design. 
                     
                     ### Unfortunate Issues: 
                     If you refresh the page by accident, the game state will reset.                     
