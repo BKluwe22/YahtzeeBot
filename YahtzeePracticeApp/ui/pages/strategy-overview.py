@@ -10,7 +10,7 @@ layout = html.Div(
         dcc.Markdown("""
 ## Introduction
 
-I grew up playing Yahtzee on a near daily basis (more specifically, the German version Knifle). Yet, I have somehow managed 
+I grew up playing Yahtzee on a near daily basis (more specifically, the German version Kniffel). Yet, I have somehow managed 
 to consistently lose to people that have never played the game. My frustration 
 finally boiled over near the end of last year when I lost six games in a row against an 
 someone that I regarded as using inferior strategies (a.k.a. using "vibes").
@@ -37,10 +37,10 @@ a pretty good approach that is at least somewhat different than other implementa
 
 ### Game Variant
 I should note that I coded everything in line with the rules my family plays. It is very similar
-to the classic rules where the only exception is the way that we handle the “Super Yahtzee” or “Bonus Knifle”.
-We only allow the “Bonus Kniffle” to be filled for the second block (three-of-a-kind, four-of-a-kind, full-house, 
-small-straight, large-straight, and chance) only if the Kniffle has been previously achieved. There is no restriction 
-here based on the state of Block 1. You do not have to fill the category corresponding to the dice that you achieved Kniffle with.
+to the classic rules where the only exception is the way that we handle the “Super Yahtzee” or “Bonus Kniffel”.
+We only allow the “Bonus Kniffel” to be filled for the second block (three-of-a-kind, four-of-a-kind, full-house, 
+small-straight, large-straight, and chance) only if the Kniffel has been previously achieved. There is no restriction 
+here based on the state of Block 1. You do not have to fill the category corresponding to the dice that you achieved Kniffel with.
 
 
 ### Summary of Various Failed and Untested Approaches
