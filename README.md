@@ -33,7 +33,7 @@ go into strategy-replication/ and run ```python main.py```
 
 ### Interactive Application
 If you have built the images via Docker Compose, run ```docker compose up```
-in the YahtzeePracticeApp folder
+in the root of the YahtzeePracticeApp folder
 
 If you have followed the alternative route, you can run ```python app.py```
 in the ```YahtzeePracticeApp/ui``` folder
